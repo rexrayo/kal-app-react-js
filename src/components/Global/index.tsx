@@ -36,6 +36,9 @@ export const StyledBody = styled.div`
 export const StyledForm = styled.form`
     display: flex;
     flex-direction: column;
+    @media (max-width: 350px) {
+        width: -webkit-fill-available;
+    }
 `;
 
 export const StyledInput = styled.input`
