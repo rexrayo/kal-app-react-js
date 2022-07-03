@@ -50,8 +50,7 @@ export const StyledInput = styled.input`
     box-shadow: 0 0 8px 0 ${props => props.theme.colors.shadow};
 
     :focus {
-        outline: none;
-        border: 1px solid ${props => props.theme.colors.primary};
+        outline: 2.5px solid ${props => props.theme.colors.primary};
     }
 `;
 
