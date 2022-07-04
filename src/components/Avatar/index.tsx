@@ -14,13 +14,13 @@ const Avatar: React.FC<AvatarI> = ({handleFile, selectedImage, setSelectedImage}
 
     <label  htmlFor="inputFile" style={{ cursor: 'pointer', display: 'flex', flexDirection: 'column', alignSelf: 'center', marginTop: 50 }}>
         <input onChange={handleFile} name="" type="file" id="inputFile" hidden />
-        {!selectedImage ? <img src={img} alt='' style={{
+        {!selectedImage ? <img src={img} alt='input' style={{
             borderRadius: 100,
             width: 200,
             height: 200,
 
         }} /> : 
-        <img src={selectedImage} alt='' style={{
+        <img src={selectedImage} alt='input' style={{
             borderRadius: 100,
             width: 200,
             height: 200,
