@@ -86,8 +86,8 @@ export const StyledButton = styled.button`
 export const Logo: React.FC = styled.img.attrs(props => ({
     src: props.theme.dark ? kal : kal_black,
     alt: 'Logo',
-    width: '283',
-    height: '316',
+    width: '192',
+    height: '192',
     }))`
     margin-bottom: 50px;
     margin-top: 50px;
