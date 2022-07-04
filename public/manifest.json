@@ -13,6 +13,12 @@
       "sizes": "192x192"
     },
     {
+      "src": "kal72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any maskable"
+    },
+    {
       "src": "kal192mask.png",
       "type": "image/png",
       "sizes": "512x512",
